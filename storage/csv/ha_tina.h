@@ -53,7 +53,7 @@ typedef struct st_tina_share {
 } TINA_SHARE;
 
 struct tina_set {
-  my_off_t begin;
+  my_off_t begin;// unsigned long long
   my_off_t end;
 };
 
