@@ -28,7 +28,7 @@
 
 typedef struct st_tina_share {
   char *table_name;
-  char data_file_name[FN_REFLEN];
+  char data_file_name[FN_REFLEN];//Max length of file path
   uint table_name_length, use_count;
   /*
     Below flag is needed to make log tables work with concurrent insert.
